@@ -32,7 +32,7 @@ class NewItemViewViewModel: ObservableObject {
             id: newId,
             title: title,
             dueDate: dueDate.timeIntervalSince1970,
-            createdDate: dueDate.timeIntervalSince1970,
+            createdDate: Date().timeIntervalSince1970,
             isDone: false
         )
         
@@ -41,7 +41,7 @@ class NewItemViewViewModel: ObservableObject {
         db.collection("users")
             .document(uId)
             .collection("todos")
-            .document("newId")
+            .document(newId)
             .setData(newItem.asDictionary())
     }
     
