@@ -134,10 +134,10 @@
 				134238C72BE410F800F3D35E /* MainViewViewModel.swift */,
 				134238C92BE4110400F3D35E /* ProfileViewViewModel.swift */,
 				134238CB2BE4111500F3D35E /* ToDoListViewViewModel.swift */,
+				134238D32BE4115500F3D35E /* ToDoListItemViewViewModel.swift */,
 				134238CD2BE4112300F3D35E /* NewItemViewViewModel.swift */,
 				134238CF2BE4113000F3D35E /* LoginViewViewModel.swift */,
 				134238D12BE4113E00F3D35E /* RegisterViewViewModel.swift */,
-				134238D32BE4115500F3D35E /* ToDoListItemViewViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
